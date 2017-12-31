@@ -1,0 +1,82 @@
+// BREAKPOINT MEDIA QUERIES
+$movil-max: max-width 479px;
+
+$movil: 320px; //20em
+$tablet: 480px; //30em
+$laptop: 768px; //48em
+$desktop: 1072px; //67em
+$largedesk: 1264px; //79em
+
+// GRID (SUSY)
+ $susy: (
+	columns: 12,
+	container: 1000px,
+	global-box-sizing: border-box
+);
+
+// GRID 2 (SUSY)
+/* $susy2: (
+	columns: 24,
+	container: 1000px,
+	global-box-sizing: border-box,
+	gutter: 1,
+	gutter-position: after
+);
+ */
+
+// Complete Susy GRID
+$susy3: (
+	flow: ltr,
+	output: float,
+	math: fluid,
+	column-width: false,
+	container: 1000px,
+	container-position: center,
+	last-flow: to,
+	columns: 12,
+	gutters: 1,
+	gutter-position: after,
+	global-box-sizing: content-box,
+	debug: (
+		image: hide,
+		color: rgba(#6666FF, 0.25),
+		output: background,
+		toggle: top right,
+	),
+	use-custom: (
+		background-image: true,
+		background-options: false,
+		box-sizing: true,
+		clearfix: false,
+		rem: true,
+	)
+);
+
+// OPTIONS
+/*
+flow: ltr, // ltr | rtl
+output: float, // float | isolate
+math: fluid, // fluid | static (requires column-width)
+column-width: false, //false | value
+container: auto, // length or % | auto
+container-position: center, // left | center | right | <length> [*2] (grid)
+last-flow: to, // to | from (last element float right or left)
+columns: 12,
+gutters: 1,
+gutter-position: after, // before | after | split | inside | inside-stat
+global-box-sizing: content-box, //content-box | border-box (affects inside)
+debug: (
+	image: hide,
+	color: rgba(#6666FF, 0.25),
+	output: background, // background | overlay
+	toggle: top right,
+),
+use-custom: (
+	background-image: true, // look for background-image mixin
+	background-options: false, // look for background-size mixin, -origin...
+	box-sizing: true, // look for custom box sizing mixing
+	clearfix: false, // true - look for internal clearfix before using ...
+	rem: true, // look for rem mixin
+)
+*/
+

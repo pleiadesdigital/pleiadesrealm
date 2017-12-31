@@ -1,0 +1,39 @@
+/*--------------------------------------------------------------
+13.6 Footer
+--------------------------------------------------------------*/
+
+.site-footer {
+	border-top: 1px solid #eee;
+}
+
+.site-footer .wrap {
+	padding-bottom: 1.5em;
+	padding-top: 2em;
+}
+
+/* Footer widgets */
+
+.site-footer .widget-area {
+	padding-bottom: 2em;
+	padding-top: 2em;
+}
+
+/* Site info */
+
+.site-info {
+	font-size: 14px;
+	font-size: 0.875rem;
+	margin-bottom: 1em;
+}
+
+.site-info a {
+	color: #666;
+}
+
+.site-info .sep {
+	margin: 0;
+	display: block;
+	visibility: hidden;
+	height: 0;
+	width: 100%;
+}

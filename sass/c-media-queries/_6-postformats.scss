@@ -1,0 +1,28 @@
+@include breakpoint($movil) { //20em 320px
+
+} //breakpoint($movil) 20em 320px
+
+
+@include breakpoint($tablet) { //30em 480px
+
+} //breakpoint($tablet) 30em 480px
+
+
+@include breakpoint($laptop) { //48em 768px
+
+} //breakpoint($laptop) 48em 768px
+
+
+@include breakpoint($desktop) { //67em 1072px
+
+} // breakpoint($desktop) 67em 1072px
+
+
+@include breakpoint($largedesk) { //79em 1264px
+
+} //breakpoint($largedesk) 79em 1264px
+
+
+/* @include breakpoint (max-width: 48.875em ) and (min-width: 48em) {
+
+} */

@@ -1,0 +1,99 @@
+@include breakpoint($movil) { //20em 320px
+
+} //breakpoint($movil) 20em 320px
+
+
+@include breakpoint($tablet) { //30em 480px
+
+	// SITE BRANDING
+		.site-branding {
+			padding: 3em 0;
+		}
+
+} //breakpoint($tablet) 30em 480px
+
+
+@include breakpoint($laptop) { //48em 768px
+
+	// SITE BRANDING
+	.site-branding {
+		margin-bottom: 0;
+	}
+	.has-header-image.pleiadesrealm-front-page .site-branding,
+	.has-header-video.pleiadesrealm-front-page .site-branding,
+	.has-header-image.home.blog .site-branding,
+	.has-header-video.home.blog .site-branding {
+		bottom: 0;
+		display: block;
+		left: 0;
+		height: auto;
+		padding-top: 0;
+		position: absolute;
+		width: 100%;
+	}
+	.has-header-image.pleiadesrealm-front-page .custom-header,
+	.has-header-video.pleiadesrealm-front-page .custom-header,
+	.has-header-image.home.blog .custom-header,
+	.has-header-video.home.blog .custom-header {
+		display: block;
+		height: auto;
+	}
+	.custom-header-media {
+		height: 165px;
+		position: relative;
+	}
+	.pleiadesrealm-front-page.has-header-image .custom-header-media,
+	.pleiadesrealm-front-page.has-header-video .custom-header-media,
+	.home.blog.has-header-image .custom-header-media,
+	.home.blog.has-header-video .custom-header-media {
+		height: 0;
+		position: relative;
+	}
+	.has-header-image:not(.pleiadesrealm-front-page):not(.home) .custom-header-media,
+	.has-header-video:not(.pleiadesrealm-front-page):not(.home) .custom-header-media {
+		bottom: 0;
+		height: auto;
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.custom-logo-link {
+		padding-right: 2em;
+	}
+	.custom-logo-link img,
+	body.home.title-tagline-hidden.has-header-image .custom-logo-link img,
+	body.home.title-tagline-hidden.has-header-video .custom-logo-link img {
+		max-width: 350px;
+	}
+	.title-tagline-hidden.home.has-header-image .custom-logo-link img,
+	.title-tagline-hidden.home.has-header-video .custom-logo-link img {
+		max-height: 200px;
+	}
+	.site-title {
+		font-size: 36px;
+		font-size: 2.25rem;
+	}
+	.site-description {
+		font-size: 16px;
+		font-size: 1rem;
+	}
+
+
+} //breakpoint($laptop) 48em 768px
+
+
+@include breakpoint($desktop) { //67em 1072px
+
+} // breakpoint($desktop) 67em 1072px
+
+
+@include breakpoint($largedesk) { //79em 1264px
+
+} //breakpoint($largedesk) 79em 1264px
+
+
+
+/* @include breakpoint (max-width: 48.875em ) and (min-width: 48em) {
+
+} */

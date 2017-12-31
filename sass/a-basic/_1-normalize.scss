@@ -1,0 +1,677 @@
+
+/*
+1.0 Normalize
+2.0 Accessibility
+3.0 Alignments
+4.0 Clearings
+11.0 Featured Image Hover
+17.0 Customizer
+18.0 SVGs Fallbacks
+20.0 Print
+
+ */
+
+/*--------------------------------------------------------------
+1.0 Normalize
+Styles based on Normalize v5.0.0 @link https://github.com/necolas/normalize.css
+--------------------------------------------------------------*/
+
+html {
+	font-family: sans-serif;
+	line-height: 1.15;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+	display: block;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+figcaption,
+figure,
+main {
+	display: block;
+}
+
+figure {
+	margin: 1em 0;
+}
+
+hr {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+}
+
+pre {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+a {
+	background-color: transparent;
+	-webkit-text-decoration-skip: objects;
+}
+
+a:active,
+a:hover {
+	outline-width: 0;
+}
+
+abbr[title] {
+	border-bottom: 1px #767676 dotted;
+	text-decoration: none;
+}
+
+b,
+strong {
+	font-weight: inherit;
+}
+
+b,
+strong {
+	font-weight: 700;
+}
+
+code,
+kbd,
+samp {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+dfn {
+	font-style: italic;
+}
+
+mark {
+	background-color: #eee;
+	color: #222;
+}
+
+small {
+	font-size: 80%;
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+sup {
+	top: -0.5em;
+}
+
+audio,
+video {
+	display: inline-block;
+}
+
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+
+img {
+	border-style: none;
+}
+
+svg:not(:root) {
+	overflow: hidden;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: sans-serif;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+}
+
+button,
+input {
+	overflow: visible;
+}
+
+button,
+select {
+	text-transform: none;
+}
+
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+	-webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+	border-style: none;
+	padding: 0;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+	outline: 1px dotted ButtonText;
+}
+
+fieldset {
+	border: 1px solid #bbb;
+	margin: 0 2px;
+	padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: inherit;
+	display: table;
+	max-width: 100%;
+	padding: 0;
+	white-space: normal;
+}
+
+progress {
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+textarea {
+	overflow: auto;
+}
+
+[type="checkbox"],
+[type="radio"] {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+
+[type="search"] {
+	-webkit-appearance: textfield;
+	outline-offset: -2px;
+}
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+	-webkit-appearance: button;
+	font: inherit;
+}
+
+details,
+menu {
+	display: block;
+}
+
+summary {
+	display: list-item;
+}
+
+canvas {
+	display: inline-block;
+}
+
+template {
+	display: none;
+}
+
+[hidden] {
+	display: none;
+}
+
+/*--------------------------------------------------------------
+2.0 Accessibility
+--------------------------------------------------------------*/
+
+/* Text meant only for screen readers. */
+
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	overflow: hidden;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: 700;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+
+/*--------------------------------------------------------------
+3.0 Alignments
+--------------------------------------------------------------*/
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+4.0 Clearings
+--------------------------------------------------------------*/
+
+.clear:before,
+.clear:after,
+.entry-content:before,
+.entry-content:after,
+.entry-footer:before,
+.entry-footer:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.site-header:after,
+.site-content:before,
+.site-content:after,
+.site-footer:before,
+.site-footer:after,
+.nav-links:before,
+.nav-links:after,
+.pagination:before,
+.pagination:after,
+.comment-author:before,
+.comment-author:after,
+.widget-area:before,
+.widget-area:after,
+.widget:before,
+.widget:after,
+.comment-meta:before,
+.comment-meta:after {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+
+.clear:after,
+.entry-content:after,
+.entry-footer:after,
+.comment-content:after,
+.site-header:after,
+.site-content:after,
+.site-footer:after,
+.nav-links:after,
+.pagination:after,
+.comment-author:after,
+.widget-area:after,
+.widget:after,
+.comment-meta:after {
+	clear: both;
+}
+
+
+/*--------------------------------------------------------------
+11.0 Featured Image Hover
+--------------------------------------------------------------*/
+
+.post-thumbnail {
+	margin-bottom: 1em;
+}
+
+.post-thumbnail a img {
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: opacity 0.2s;
+	transition: opacity 0.2s;
+}
+
+.post-thumbnail a:hover img,
+.post-thumbnail a:focus img {
+	opacity: 0.7;
+}
+
+
+/*--------------------------------------------------------------
+17.0 Customizer
+--------------------------------------------------------------*/
+
+.highlight-front-sections.pleiadesrealm-customizer.pleiadesrealm-front-page .pleiadesrealm-panel:after {
+	border: 2px dashed #0085ba; /* Matches visible edit shortcuts. */
+	bottom: 1em;
+	content: "";
+	display: block;
+	left: 1em;
+	position: absolute;
+	right: 1em;
+	top: 1em;
+	z-index: 1;
+}
+
+.highlight-front-sections.pleiadesrealm-customizer.pleiadesrealm-front-page .pleiadesrealm-panel .panel-content {
+	z-index: 2; /* Prevent :after from preventing interactions within the section */
+}
+
+/* Used for placeholder text */
+.pleiadesrealm-customizer.pleiadesrealm-front-page .pleiadesrealm-panel .pleiadesrealm-panel-title {
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding: 3em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+/* Show borders on the custom page panels only when the front page sections are being edited */
+.highlight-front-sections.pleiadesrealm-customizer.pleiadesrealm-front-page .pleiadesrealm-panel:nth-of-type(1):after {
+	border: none;
+}
+
+.pleiadesrealm-front-page.pleiadesrealm-customizer #primary article.panel-placeholder {
+	border: 0;
+}
+
+/* Add some space around the visual edit shortcut buttons. */
+.pleiadesrealm-panel > .customize-partial-edit-shortcut > button {
+	top: 30px;
+	left: 30px;
+}
+
+/* Ensure that placeholder icons are visible. */
+.pleiadesrealm-panel .customize-partial-edit-shortcut-hidden:before {
+	visibility: visible;
+}
+
+
+/*--------------------------------------------------------------
+18.0 SVGs Fallbacks
+--------------------------------------------------------------*/
+
+.svg-fallback {
+	display: none;
+}
+
+.no-svg .svg-fallback {
+	display: inline-block;
+}
+
+.no-svg .dropdown-toggle {
+	padding: 0.5em 0 0;
+	right: 0;
+	text-align: center;
+	width: 2em;
+}
+
+.no-svg .dropdown-toggle .svg-fallback.icon-angle-down {
+	font-size: 20px;
+	font-size: 1.25rem;
+	font-weight: 400;
+	line-height: 1;
+	-webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+	-ms-transform: rotate(180deg); /* IE 9 */
+	transform: rotate(180deg);
+}
+
+.no-svg .dropdown-toggle.toggled-on .svg-fallback.icon-angle-down {
+	-webkit-transform: rotate(0); /* Chrome, Safari, Opera */
+	-ms-transform: rotate(0); /* IE 9 */
+	transform: rotate(0);
+}
+
+.no-svg .dropdown-toggle .svg-fallback.icon-angle-down:before {
+	content: "\005E";
+}
+
+/* Social Menu fallbacks */
+
+.no-svg .social-navigation a {
+	background: transparent;
+	color: #222;
+	height: auto;
+	width: auto;
+}
+
+/* Show screen reader text in some cases */
+
+.no-svg .next.page-numbers .screen-reader-text,
+.no-svg .prev.page-numbers .screen-reader-text,
+.no-svg .social-navigation li a .screen-reader-text,
+.no-svg .search-submit .screen-reader-text {
+	clip: auto;
+	font-size: 16px;
+	font-size: 1rem;
+	font-weight: 400;
+	height: auto;
+	position: relative !important; /* overrides previous !important styles */
+	width: auto;
+}
+
+/*--------------------------------------------------------------
+20.0 Print
+--------------------------------------------------------------*/
+
+@media print {
+
+	/* Hide elements */
+
+	form,
+	button,
+	input,
+	select,
+	textarea,
+	.navigation-top,
+	.social-navigation,
+	#secondary,
+	.content-bottom-widgets,
+	.header-image,
+	.panel-image-prop,
+	.icon-thumb-tack,
+	.page-links,
+	.edit-link,
+	.post-navigation,
+	.pagination.navigation,
+	.comments-pagination,
+	.comment-respond,
+	.comment-edit-link,
+	.comment-reply-link,
+	.comment-metadata .edit-link,
+	.pingback .edit-link,
+	.site-footer aside.widget-area,
+	.site-info {
+		display: none !important;
+	}
+
+	.entry-footer,
+	#comments,
+	.site-footer,
+	.single-featured-image-header {
+		border: 0;
+	}
+
+	/* Font sizes */
+
+	body {
+		font-size: 12pt;
+	}
+
+	h1 {
+		font-size: 24pt;
+	}
+
+	h2 {
+		font-size: 22pt;
+	}
+
+	h3 {
+		font-size: 17pt;
+	}
+
+	h4 {
+		font-size: 12pt;
+	}
+
+	h5 {
+		font-size: 11pt;
+	}
+
+	h6 {
+		font-size: 12pt;
+	}
+
+	.page .panel-content .entry-title,
+	.page-title,
+	body.page:not(.pleiadesrealm-front-page) .entry-title {
+		font-size: 10pt;
+	}
+
+	/* Layout */
+
+	.wrap {
+		padding-left: 5% !important;
+		padding-right: 5% !important;
+		max-width: none;
+	}
+
+	/* Site Branding */
+
+	.site-header {
+		background: transparent;
+		padding: 0;
+	}
+
+	.custom-header-media {
+		padding: 0;
+	}
+
+	.pleiadesrealm-front-page.has-header-image .site-branding,
+	.pleiadesrealm-front-page.has-header-video .site-branding,
+	.home.blog.has-header-image .site-branding,
+	.home.blog.has-header-video .site-branding {
+		position: relative;
+	}
+
+	.site-branding {
+		margin-top: 0;
+		margin-bottom: 1.75em !important; /* override styles added by JavaScript */
+	}
+
+	.site-title {
+		font-size: 25pt;
+	}
+
+	.site-description {
+		font-size: 12pt;
+		opacity: 1;
+	}
+
+	/* Posts */
+
+	.single-featured-image-header {
+		background: transparent;
+	}
+
+	.entry-meta {
+		font-size: 9pt;
+	}
+
+	/* Colors */
+
+	body,
+	.site {
+		background: none !important; /* Brute force since user agents all print differently. */
+	}
+
+	body,
+	a,
+	.site-title a,
+	.pleiadesrealm-front-page.has-header-image .site-title,
+	.pleiadesrealm-front-page.has-header-video .site-title,
+	.pleiadesrealm-front-page.has-header-image .site-title a,
+	.pleiadesrealm-front-page.has-header-video .site-title a {
+		color: #222 !important; /* Make sure color schemes don't affect to print */
+	}
+
+	h2,
+	h5,
+	blockquote,
+	.site-description,
+	.pleiadesrealm-front-page.has-header-image .site-description,
+	.pleiadesrealm-front-page.has-header-video .site-description,
+	.entry-meta,
+	.entry-meta a {
+		color: #777 !important; /* Make sure color schemes don't affect to print */
+	}
+
+	.entry-content blockquote.alignleft,
+	.entry-content blockquote.alignright {
+		font-size: 11pt;
+		width: 34%;
+	}
+
+	.site-footer {
+		padding: 0;
+	}
+}

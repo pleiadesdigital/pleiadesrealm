@@ -1,0 +1,120 @@
+@include breakpoint($movil) { //20em 320px
+
+
+} //breakpoint($movil) 20em 320px
+
+
+@include breakpoint($tablet) { //30em 480px
+
+	// FRONT PAGE
+		.panel-content .wrap {
+			padding-bottom: 2em;
+			padding-top: 3.5em;
+		}
+		.page-one-column .panel-content .wrap {
+			max-width: 740px;
+		}
+		.panel-content .entry-header {
+			margin-bottom: 4.5em;
+		}
+		.panel-content .recent-posts .entry-header {
+			margin-bottom: 0;
+		}
+
+
+} //breakpoint($tablet) 30em 480px
+
+
+@include breakpoint($laptop) { //48em 768px
+
+	// FRONT PAGE
+		.pleiadesrealm-front-page.has-header-image .site-branding,
+		.pleiadesrealm-front-page.has-header-video .site-branding,
+		.home.blog.has-header-image .site-branding,
+		.home.blog.has-header-video .site-branding {
+			margin-bottom: 70px;
+		}
+		.pleiadesrealm-front-page.has-header-image .custom-header-media,
+		.pleiadesrealm-front-page.has-header-video .custom-header-media,
+		.home.blog.has-header-image .custom-header-media,
+		.home.blog.has-header-video .custom-header-media {
+			height: 1200px;
+			height: 100vh;
+			max-height: 100%;
+			overflow: hidden;
+		}
+		.pleiadesrealm-front-page.has-header-image .custom-header-media:before,
+		.pleiadesrealm-front-page.has-header-video .custom-header-media:before,
+		.home.blog.has-header-image .custom-header-media:before,
+		.home.blog.has-header-video .custom-header-media:before {
+			height: 33%;
+		}
+		.admin-bar.pleiadesrealm-front-page.has-header-image .custom-header-media,
+		.admin-bar.pleiadesrealm-front-page.has-header-video .custom-header-media,
+		.admin-bar.home.blog.has-header-image .custom-header-media,
+		.admin-bar.home.blog.has-header-video .custom-header-media {
+			height: calc(100vh - 32px);
+		}
+		.panel-content .wrap {
+			padding-bottom: 4.5em;
+			padding-top: 6em;
+		}
+		.panel-image {
+			height: 100vh;
+			max-height: 1200px;
+		}
+		/* With panel images 100% of the screen height, we're going to fix the background image where supported to create a parallax-like effect. */
+		.background-fixed .panel-image {
+			background-attachment: fixed;
+		}
+		.page-two-column .panel-content .entry-header {
+			float: left;
+			width: 36%;
+		}
+		.page-two-column .panel-content .entry-content {
+			float: right;
+			width: 58%;
+		}
+		/* Front Page - Recent Posts */
+		.page-two-column .panel-content .recent-posts {
+			clear: right;
+			float: right;
+			width: 58%;
+		}
+		.panel-content .recent-posts article {
+			margin-bottom: 4em;
+		}
+		.panel-content .recent-posts .entry-header,
+		.page-two-column #primary .panel-content .recent-posts .entry-header,
+		.panel-content .recent-posts .entry-content,
+		.page-two-column #primary .panel-content .recent-posts .entry-content {
+			float: none;
+			width: 100%;
+		}
+		.panel-content .recent-posts .entry-header {
+			margin-bottom: 1.5em;
+		}
+		.page .panel-content .recent-posts .entry-title {
+			font-size: 26px;
+			font-size: 1.625rem;
+		}
+
+} //breakpoint($laptop) 48em 768px
+
+
+@include breakpoint($desktop) { //67em 1072px
+
+
+
+} // breakpoint($desktop) 67em 1072px
+
+
+@include breakpoint($largedesk) { //79em 1264px
+
+
+} //breakpoint($largedesk) 79em 1264px
+
+
+/* @include breakpoint (max-width: 48.875em ) and (min-width: 48em) {
+
+} */

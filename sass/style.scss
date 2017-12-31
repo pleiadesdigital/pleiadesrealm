@@ -1,0 +1,99 @@
+/*!
+Theme Name: Pleiades Realm
+Theme URI: http://underscores.me/
+Author: Ronaldo Ortiz
+Author URI: http://www.pleiadesdigital.com
+Description: Pleiades Digital Gulp Compass Responsive
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: pleiadesrealm
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+0. Compass Imports & External
+A. BASIC STYLES
+	a.1 Normalize
+	a.2 Elements
+	a.3 Typography
+	a.4 Navigation
+B. LAYOUT
+	b.1 Main
+	b.2 Header
+	b.3 Front Page
+	b.4 Regular Content
+	b.5 Posts
+	b.6 Pages
+	b.7 Footer
+C. MEDIA QUERIES
+	c.1 Layout
+	c.2 Header
+	c.3 Navigation
+	c.4 Posts & Pages
+	c.5 Front Page
+	c.6 Post Formats
+	c.7 CPTS
+	c.8 MISC
+H. Variables
+	h.1 Colors
+	h.2 Fonts
+	h.3 Structure
+	h.4 Mixins
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+Compass Imports & External
+--------------------------------------------------------------*/
+// COMPASS Imports
+
+@import "compass";
+// @import "compass/reset";
+@import "compass/css3/flexbox";
+@import "compass/css3/transition";
+@import "compass/css3/filter";
+@import "compass/css3/text-shadow";
+@import "compass/css3/box-shadow";
+@import "compass/css3/opacity";
+
+// EXTERNAL LIBRARIES
+@import "susy";
+@import "breakpoint";
+
+// D. Variables
+@import "d-variables/1-colorsfonts";
+@import "d-variables/2-structure";
+@import "d-variables/3-mixins";
+
+
+/*--------------------------------------------------------------
+A. BASIC STYLES
+--------------------------------------------------------------*/
+@import "a-basic/1-normalize";
+@import "a-basic/2-elements";
+@import "a-basic/3-typography";
+
+/*--------------------------------------------------------------
+B. LAYOUT
+--------------------------------------------------------------*/
+@import "b-layout/1-main";
+@import "b-layout/2-header";
+@import "b-layout/3-frontpage";
+@import "b-layout/4-navigation";
+@import "b-layout/5-posts";
+@import "b-layout/6-pages";
+@import "b-layout/7-footer";
+
+/*--------------------------------------------------------------
+B. MEDIA QUERIES
+--------------------------------------------------------------*/
+@import "c-media-queries/1-layout";
+@import "c-media-queries/2-header";
+@import "c-media-queries/3-navigation";
+@import "c-media-queries/4-postspages";
+@import "c-media-queries/5-frontpage";
+@import "c-media-queries/6-postformats";
+@import "c-media-queries/7-cpts";
+@import "c-media-queries/8-misc";
