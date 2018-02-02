@@ -1,0 +1,33 @@
+{
+  "name": "pleiadesrealm",
+  "version": "1.0.0",
+  "description": "Pleiades Digital base theme 2018",
+  "main": "index.php",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pleiadesdigital/pleiadesrealm.git"
+  },
+  "keywords": [
+    "reponsive",
+    "all",
+    "in",
+    "one",
+    "theme"
+  ],
+  "author": "Ronaldo Ortiz",
+  "license": "ISC",
+  "homepage": "https://github.com/pleiadesdigital/pleiadesrealm#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sourcemaps": "^2.6.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "path": "^0.12.7"
+  }
+}

@@ -323,6 +323,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "sass/a-basic/_1-normalize.scss",
+			"settings":
+			{
+				"buffer_size": 11868,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -384,10 +393,60 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm"
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/sass",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/sass/a-basic"
 	],
 	"file_history":
 	[
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/package.json",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/.gitignore",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/front-page.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/footer.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/comments.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/archive.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/404.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/functions.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/header.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/index.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/rtl.css",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/search.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/searchform.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/sidebar.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/single.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/style.css",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/assets/js/global.js",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/assets/js/navigation.js",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/inc/back-compat.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/inc/color-patterns.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/inc/custom-header.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/inc/customizer-DEL.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/inc/icon-functions.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/inc/template-functions.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/inc/template-tags.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/sass/a-basic/_1-normalize.scss",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/sass/b-layout/_2-header.scss",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/sass/b-layout/_3-frontpage.scss",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/sass/b-layout/_5-posts.scss",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/sass/c-media-queries/_2-header.scss",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/sass/c-media-queries/_4-postspages.scss",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/sass/c-media-queries/_5-frontpage.scss",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/sass/c-media-queries/_8-misc.scss",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/template-parts/footer/footer-widgets.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/template-parts/footer/site-info.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/template-parts/header/site-branding.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/template-parts/navigation/navigation-top.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/template-parts/page/content-front-page-panels.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/template-parts/page/content-front-page.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/template-parts/page/content-page.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/template-parts/post/content-audio.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/template-parts/post/content-excerpt.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/template-parts/post/content-gallery.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/template-parts/post/content-image.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/template-parts/post/content-none.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/template-parts/post/content-video.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/template-parts/post/content.php",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesrealm/wp-content/themes/pleiadesrealm/sass/style.scss",
 		"/Users/ronyortiz/Sites/sites2017/softwareone/wp-content/themes/twentyseventeen/style.css",
 		"/Users/ronyortiz/Sites/sites2017/softwareone/wp-content/themes/softwareone/gulpfile.js",
 		"/Users/ronyortiz/Sites/sites2017/softwareone/wp-content/themes/softwareone/404.php",
@@ -467,55 +526,7 @@
 		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/wphierarchy/video.php",
 		"/Users/ronyortiz/Desktop/sampletext.txt",
 		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/wphierarchy/attachment.php",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/wphierarchy/date.php",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/wphierarchy/archive.php",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/wphierarchy/category-6.php",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/wphierarchy/template-parts/content-blog.php",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/wphierarchy/category.php",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Fluidvision.tmTheme",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/wphierarchy/author.php",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/wphierarchy/template-parts/content.php",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/wphierarchy/template-parts/content-page.php",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/wphierarchy/template-parts/content-gallery.php",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/wphierarchy/home.php",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/wphierarchy/index.php",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/wphierarchy/comments.php",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/wphierarchy/single-post.php",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/wphierarchy/single-page-markup-and-formatting.php",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/wphierarchy/singular.php",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/CSSEdit.tmTheme",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Spectacular.tmTheme",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Lowlight.tmTheme",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/IDLE.tmTheme",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/wphierarchy/footer.php",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/wphierarchy/sidebar-splash.php",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/GlitterBomb.tmTheme",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/wphierarchy/header.php",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/wphierarchy/sandobox.php",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Fade to Grey.tmTheme",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/wphierarchy/footer-splash.php",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/wphierarchy/header-splash.php",
-		"/Users/ronyortiz/Downloads/3.03 - style.css/wphierarchy/style.css",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/demo-starter/js/navigation.js",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/demo-starter/style.css",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/demo-starter/footer.php",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-config.php",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/demo-starter/woocommerce.css",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/demo-starter/functions.php",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/demo-starter/inc/jetpack.php",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/twentysixteen/index.php",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/twentyseventeen-child/functions.php",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/twentyseventeen-child/footer.php",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/twentyseventeen-child/style.css",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/twentyseventeen/style.css",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/twentyseventeen/footer.php",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/twentyfifteen/index.php",
-		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-login.php",
-		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/sass/f-media-queries/_1mq-layout.scss",
-		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/functions.php",
-		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/front-page.php",
-		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/sass/b-layout/_base.scss",
-		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/index.php"
+		"/Users/ronyortiz/Sites/training2017/wpdevzac/wp-content/themes/wphierarchy/date.php"
 	],
 	"find":
 	{
@@ -526,6 +537,7 @@
 		"height": 158.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -533,6 +545,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"softwareone"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -540,6 +553,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"pleiadesrealm"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -550,8 +564,204 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "sass/a-basic/_1-normalize.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11868,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								505,
+								505
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										506,
+										507
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										492,
+										493
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bs_sintax": "scss",
+							"buffer_scroll_name": "e7970645",
+							"spell_check": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
